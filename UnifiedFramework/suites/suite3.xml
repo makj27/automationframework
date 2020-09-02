@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Parallel Execution Suite" parallel="tests">
+
+    <test thread-count="1" name="PE-Test-1--Browser-1" parallel="classes">
+        <parameter name="country" value="PE"/>
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="browserVersion" value="59.0.3071.115"/>
+        <classes>
+            <class name="tests.common.web.Login.LoginTests"/>
+        </classes>
+    </test> <!-- PE-Test-1-Browser-1 -->
+</suite> <!-- Parallel Execution Suite -->

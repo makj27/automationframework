@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="SA_Suite" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="program" value="SA"/>
+    <parameter name="country" value="SA"/>
+    <parameter name="dockerinit" value="No"/>
+    <test name="TestSA3" thread-count="2" parallel="methods">
+        <classes>
+            <class name="tests.common.web.Login.LoginTests">
+                <methods>
+                    <include name="validateLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    <test name="TestSA4" thread-count="2" parallel="methods">
+        <classes>
+            <class name="tests.common.web.Login.LoginTests">
+                <methods>
+                    <include name="validateLoginTest"/>
+                    <include name="validateSampleTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Brazil_Suite" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="program" value="NAD"/>
+    <parameter name="country" value="NAD"/>
+    <parameter name="dockerinit" value="No"/>
+    <!--test name="TestBrazil1" thread-count="2" parallel="methods">
+        <classes>
+            <class name="tests.common.web.Login.LoginTests">
+                <methods>
+                    <include name="validateLoginTest"/>
+                    <include name="validateSampleTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test--> <!-- Test -->
+    <test name="TC_123" thread-count="2" parallel="methods">
+        <classes>
+            <class name="tests.common.web.Login.LoginTests">
+                <methods>
+                    <include name="validateSampleTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,42 @@
+2020-07-25 14:45:03 INFO  TestCaseInit:22 - Inside BeforeSuite method - suiteSetup()!
+2020-07-25 14:45:03 INFO  TestCaseInit:22 - End BeforeSuite method - suiteSetup()!
+2020-07-25 14:45:03 INFO  TestCaseInit:22 - Inside BeforeMethod Method - setup()!
+2020-07-25 14:45:14 INFO  TestCaseInit:22 - End AfterMethod Method - setup()!
+2020-07-25 14:45:14 INFO  LoginTests:22 - Inside test - validateLoginTest()
+2020-07-25 14:45:14 INFO  LoginTests:22 - Start Navigating to login page
+2020-07-25 14:45:14 INFO  LoginTests:22 - Start Entering Credentials
+2020-07-25 14:45:14 INFO  LoginTests:22 - Start Validating Home Page Title
+2020-07-25 14:45:14 INFO  LoginTests:13 - Exception occurred in test - validateLoginTest()->Error in method validateHomeTitle(), XYZ File is not present
+2020-07-25 14:45:14 ERROR LoginTests:14 - Exception occurred in test - validateLoginTest()->Error in method validateHomeTitle(), XYZ File is not present
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++pages.sa.web.SALoginPage.validateHomeTitle(SALoginPage.java:33)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++tests.common.web.Login.LoginTests.validateLoginTest(LoginTests.java:28)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++java.base/java.lang.reflect.Method.invoke(Method.java:564)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++java.base/java.util.ArrayList.forEach(ArrayList.java:1510)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.TestRunner.privateRun(TestRunner.java:766)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.TestRunner.run(TestRunner.java:587)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.SuiteRunner.runTest(SuiteRunner.java:384)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.SuiteRunner.access$000(SuiteRunner.java:28)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)+++
+2020-07-25 14:45:14 ERROR LoginTests:16 - +++java.base/java.lang.Thread.run(Thread.java:832)+++
+2020-07-25 14:45:14 INFO  LoginTests:22 - End Test - validateLoginTest()!
+2020-07-25 14:45:14 INFO  TestCaseInit:22 - Inside AfterMethod Method - tearDown()!
+2020-07-25 14:45:14 INFO  TestCaseInit:22 - Closing driver instance
+2020-07-25 14:45:18 INFO  TestCaseInit:22 - End AfterMethod Method - tearDown()!
+2020-07-25 14:45:18 INFO  TestCaseInit:22 - Inside AfterSuite Method - suiteTearup()!
+2020-07-25 14:45:18 INFO  TestCaseInit:22 - Quiting driver
+2020-07-25 14:45:19 INFO  TestCaseInit:22 - End AfterSuite Method - suiteTearup()!

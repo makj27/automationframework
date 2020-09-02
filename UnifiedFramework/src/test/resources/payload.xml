@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><EnhancedServicePrequalRequest>
+    <MessageHeader>
+        <TransactionDateTime>05/07/2013 09:03:06</TransactionDateTime>
+        <TransactionCode>EPQ</TransactionCode>
+        <TransactionSequenceId>HNS918265060</TransactionSequenceId>
+    </MessageHeader>
+    <PartnerId>5141</PartnerId>
+    <CustomerName>
+        <FirstName>Arjun</FirstName>
+        <MiddleName>PIM</MiddleName>
+        <LastName>Radhakrishnan</LastName>
+    </CustomerName>
+    <InstallAddress>
+        <StreetAddress1>2259 BUCKLE RD</StreetAddress1>
+        <StreetAddress2/>
+        <City>PENN YAN</City>
+        <State>NY</State>
+        <PostalCode>14527</PostalCode>
+        <County>9544</County>
+        <CountryCode>US</CountryCode>
+        <OverrideAddress>FALSE</OverrideAddress>
+    </InstallAddress>
+    <BillingAddress>
+        <StreetAddress1>2259 BUCKLE RD</StreetAddress1>
+        <StreetAddress2/>
+        <City>PENN YAN</City>
+        <State>NY</State>
+        <PostalCode>14527</PostalCode>
+        <County>9544</County>
+        <CountryCode>US</CountryCode>
+        <OverrideAddress>FALSE</OverrideAddress>
+    </BillingAddress>
+    <SSN>021230107</SSN>
+    <CustomerCreditCheckConsentFlag>FALSE</CustomerCreditCheckConsentFlag>
+    <!--ServiceGrade>SG3</ServiceGrade-->
+    <CustomerCategory>Consumer</CustomerCategory>
+    <IsInterestedInVoIP>True</IsInterestedInVoIP>
+</EnhancedServicePrequalRequest>

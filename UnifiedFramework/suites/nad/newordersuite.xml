@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="NAD_SUITE" parallel="tests" data-provider-thread-count="1">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="program" value="NAD"/>
+    <parameter name="country" value="NAD"/>
+    <parameter name="environment" value="PQT"/>
+    <parameter name="dockerinit" value="No"/>
+    <test name="WEB_CONSUMER_TEST" thread-count="1" parallel="methods">
+        <classes>
+            <class name="tests.nad.web.consumer.NewOrderTests">
+                <methods>
+                    <include name="verifyNewOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    <!--test name="Enterprise_Tests" thread-count="1" parallel="methods">
+        <classes>
+            <class name="tests.nad.web.enterprise.NewOrderTests">
+                <methods>
+                    <include name="verifyNewOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test-->
+</suite> <!-- Suite -->
